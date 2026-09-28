@@ -1,0 +1,45 @@
+{
+  "name": "steam-block",
+  "version": "1.1.0",
+  "description": "Dependency free web component for hero and split content and media sections, styled entirely through CSS custom properties.",
+  "license": "MIT",
+  "author": "Gommaar Delneste",
+  "homepage": "https://steam-block.stimulies.be/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gommaar/steam-block.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gommaar/steam-block/issues"
+  },
+  "main": "dist/steam-block.js",
+  "unpkg": "dist/steam-block.js",
+  "jsdelivr": "dist/steam-block.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "web-component",
+    "custom-element",
+    "webcomponents",
+    "shadow-dom",
+    "css-custom-properties",
+    "hero-section",
+    "landing-page",
+    "layout",
+    "responsive",
+    "vanilla-js",
+    "dependency-free",
+    "zero-config",
+    "no-build",
+    "scroll-reveal"
+  ],
+  "scripts": {
+    "build": "esbuild src/steam-block.js --minify --target=es2016 --outfile=dist/steam-block.js && esbuild src/steam-emerge.js --minify --target=es2016 --outfile=dist/steam-emerge.js",
+    "sri": "printf 'steam-block.js  sha384-' && openssl dgst -sha384 -binary dist/steam-block.js | openssl base64 -A && echo && printf 'steam-emerge.js sha384-' && openssl dgst -sha384 -binary dist/steam-emerge.js | openssl base64 -A && echo",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  }
+}
