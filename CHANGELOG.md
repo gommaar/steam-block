@@ -4,6 +4,33 @@ Versions follow [semver](https://semver.org): a patch for a fix, a minor for a b
 
 ---
 
+## 1.1.1 (2026-09-28)
+
+Package release. The component code is unchanged, so both files are byte for byte identical to 1.1.0 and keep the same SRI hashes.
+
+- Source now public on GitHub: https://github.com/gommaar/steam-block. The npm Repository and Issues links point there.
+- Shorter README with an attribute table and links to the Visual reference, Quickstart and Changelog.
+- Concise source comments.
+
+__steam-block.js__
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/steam-block@1.1.1/dist/steam-block.js" integrity="sha384-iQB69ION+fOI85hIazKAsDqsORX4sV3IemwxcTiqslH/JsGXlJly9as9oMh12ob8" crossorigin="anonymous" defer></script>
+```
+
+__steam-emerge.js__
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/steam-block@1.1.1/dist/steam-emerge.js" integrity="sha384-PUXKVdqPLk7akL4rVn2ozcfToQqu5RLDUZ7Xamn074ilP5U/fIwla1lVOJkihDv+" crossorigin="anonymous" defer></script>
+```
+
+__SRI__
+
+- steam-block.js  <br>sha384-iQB69ION+fOI85hIazKAsDqsORX4sV3IemwxcTiqslH/JsGXlJly9as9oMh12ob8
+- steam-emerge.js <br>sha384-PUXKVdqPLk7akL4rVn2ozcfToQqu5RLDUZ7Xamn074ilP5U/fIwla1lVOJkihDv+
+
+---
+
 ## 1.1.0 (2026-09-25)
 
 - Added `--steam-block-hero-content-width`, default `auto`. Sets the width of the hero content overlay at and above the breakpoint.

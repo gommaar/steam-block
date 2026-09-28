@@ -11,14 +11,14 @@ A dependency free web component for hero and split sections, styled with CSS cus
 From a CDN:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/steam-block@1.1.0/dist/steam-block.js" integrity="sha384-iQB69ION+fOI85hIazKAsDqsORX4sV3IemwxcTiqslH/JsGXlJly9as9oMh12ob8" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/steam-block@1.1.1/dist/steam-block.js" integrity="sha384-iQB69ION+fOI85hIazKAsDqsORX4sV3IemwxcTiqslH/JsGXlJly9as9oMh12ob8" crossorigin="anonymous" defer></script>
 ```
 
 With the optional scroll reveal helper, loaded first:
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/steam-block@1.1.0/dist/steam-emerge.js" integrity="sha384-PUXKVdqPLk7akL4rVn2ozcfToQqu5RLDUZ7Xamn074ilP5U/fIwla1lVOJkihDv+" crossorigin="anonymous" defer></script>
-<script src="https://cdn.jsdelivr.net/npm/steam-block@1.1.0/dist/steam-block.js" integrity="sha384-iQB69ION+fOI85hIazKAsDqsORX4sV3IemwxcTiqslH/JsGXlJly9as9oMh12ob8" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/steam-block@1.1.1/dist/steam-emerge.js" integrity="sha384-PUXKVdqPLk7akL4rVn2ozcfToQqu5RLDUZ7Xamn074ilP5U/fIwla1lVOJkihDv+" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/steam-block@1.1.1/dist/steam-block.js" integrity="sha384-iQB69ION+fOI85hIazKAsDqsORX4sV3IemwxcTiqslH/JsGXlJly9as9oMh12ob8" crossorigin="anonymous" defer></script>
 ```
 
 Or from npm:
