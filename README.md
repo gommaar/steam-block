@@ -4,6 +4,8 @@
 
 A dependency free web component for hero and split sections, styled with CSS custom properties. No build step, no framework.
 
+![One steam-block element switching between hero, split and flipped split layouts](https://raw.githubusercontent.com/gommaar/steam-block/main/media/steam-block-demo.gif)
+
 **[Docs and live examples](https://steam-block.stimulies.be/)** · [Visual reference](https://steam-block.stimulies.be/documentation/visual-reference/) · [Changelog](https://steam-block.stimulies.be/changelog/)
 
 ## Install
